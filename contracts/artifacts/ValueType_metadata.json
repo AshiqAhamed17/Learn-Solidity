@@ -7,20 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "max",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "min",
+				"name": "getA",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,12 +15,30 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "test",
+				"name": "getGlobalVars",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "localEg",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -46,11 +51,8 @@
 			}
 		],
 		"devdoc": {
-			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
-			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
 			"methods": {},
-			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -61,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basic.sol": "Storage"
+			"contracts/ValueType.sol": "ValueType"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -75,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basic.sol": {
-			"keccak256": "0x0c3266eecbe674e228e7fb22786368057697f065a657c8c7b18486350c1d2c16",
+		"contracts/ValueType.sol": {
+			"keccak256": "0xc9f8ac2321b268a7aef31da2aef6c878caa9745d5c918f672fc19611a96eed3d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bdeb483b12f3ba86a192fafb28a27abff13c31e9655582901918de97e2784b87",
-				"dweb:/ipfs/QmevjvqRgejXvRMsLu16equMzwkg1PdzhcUYifMUXTyEkm"
+				"bzz-raw://fa64d445d8314ab8dfe5ad2dd42d483597f499a4b2c3ec18f93c39e8147ce82a",
+				"dweb:/ipfs/QmXtepReWFqBSa8AQTCoRU4qYJBFMroY7iVn67tFpuNrUA"
 			]
 		}
 	},

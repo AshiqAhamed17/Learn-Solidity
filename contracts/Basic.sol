@@ -18,6 +18,7 @@ contract Storage {
     function min() public pure returns (uint) {
          uint mini = type(uint).min;
          return mini;
+         
     }
 
     function max() public pure returns (uint8) {
