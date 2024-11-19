@@ -10,7 +10,7 @@ pragma solidity >=0.8.2 <0.9.0;
 contract Storage {
 
     
-    function testMath() public pure returns (uint) {
+    function test() public pure returns (uint) {
        uint a = 0;
        unchecked { a--; }
        return a;
