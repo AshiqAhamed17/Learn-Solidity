@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "proxyAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cohort/hello2.sol": "hello2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cohort/hello2.sol": {
+			"keccak256": "0xf68310de1c7642ec1fee991587815870dbcff6c83343f58f06501507c4ca86f7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8a31a22a4cc6a6bf2a5579ff0041e642c2148540254fb5c2ccf50c0ad0ee1b6b",
+				"dweb:/ipfs/QmSPDqbYasedNbdXEoPGrzEhQu3WRW312YJE81yS5JTw4e"
+			]
+		}
+	},
+	"version": 1
+}

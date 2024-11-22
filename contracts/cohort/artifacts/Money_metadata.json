@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "ad",
+						"type": "address"
+					}
+				],
+				"name": "drain",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalMoney",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cohort/Money.sol": "Money"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cohort/Money.sol": {
+			"keccak256": "0x43e372e44374efdec662e73e94ebf124cda76d7aaf6b58a70fa27ca02454fe75",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8715224190bd6159ea104bf94ec72207f009566527ae750bf2373cd7c804d6ac",
+				"dweb:/ipfs/QmciLujKJPJiZf3tfQdEMj4erQvs7qQePeXLRMqV2CURSu"
+			]
+		}
+	},
+	"version": 1
+}
