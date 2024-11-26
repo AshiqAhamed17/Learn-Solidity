@@ -26,7 +26,14 @@ contract Arrays {
         arr.pop();
     }
 
-    
-
+    function search(uint _value) public view returns (int) {
+        uint len = arr.length;
+        for(uint i=0; i<len; i++){
+            if(arr[i] == _value){
+                return int(i);
+            }
+        }
+        return -1;
+    }
 
 }
