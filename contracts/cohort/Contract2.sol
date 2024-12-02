@@ -2,10 +2,13 @@
 
 pragma solidity >=0.8.2 <0.9.0;
 
+import "./CCIs.sol";
+
 contract Contact2 {
 
     function proxyAdd() public {
-
+        //Should call the CCI's function
+       
     }
 }
 
