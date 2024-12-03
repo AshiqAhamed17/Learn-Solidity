@@ -17,12 +17,12 @@ contract Inheritence {
     }
 
     modifier onlyOwner() {
-        require(msg.sender == owner);
+        require(msg.sender == owner, "Only Owner");
         _;        
     }
 
     modifier onlyRecipient() {
-        require(msg.sender == recipient);
+        require(msg.sender == recipient, "Only Recipient");
         _;        
     }
 
