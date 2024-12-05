@@ -35,4 +35,11 @@ contract MyToken {
         balances[msg.sender] -= _amount;
         balances[_to] += _amount; 
     }
+
+    function burn(uint _amount) public {
+        uint _balance = balances[msg.sender];
+        require(_balance > _amount, "Not enough balance");
+        balances[msg.sender] -= _amount;
+        totalSupply -= _amount;
+    }
 }
