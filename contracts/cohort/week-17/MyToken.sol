@@ -28,7 +28,6 @@ contract MyToken {
         totalSupply += _amount;
     }
 
-
     function transfer(uint _amount, address _to) public {
         uint currentBalance = balances[msg.sender];
         require(currentBalance >= _amount, "Not enough balance");
