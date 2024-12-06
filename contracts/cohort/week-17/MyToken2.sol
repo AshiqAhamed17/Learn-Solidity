@@ -11,6 +11,6 @@ contract Mytokenz is ERC20, Ownable {
     }
 
     function mint(address account , uint amount) public onlyOwner {
-        
+        _mint(account, amount);
     }
 }
