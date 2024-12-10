@@ -12,4 +12,8 @@ contract Storage {
     function get() external view returns (string memory) {
         return text;
     }
+
+    function getLenght(string calldata _text) public pure returns (uint) {
+        return bytes(_text).length;
+    }
 }

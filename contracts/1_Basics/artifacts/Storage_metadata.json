@@ -26,6 +26,25 @@
 						"type": "string"
 					}
 				],
+				"name": "getLenght",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
 				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -73,11 +92,11 @@
 	},
 	"sources": {
 		"contracts/1_Basics/11_SimpleStorage.sol": {
-			"keccak256": "0x4a76192e131a51ac9cc2ac194124eabed7b9ee25f4273adf111c6ab562fd576c",
+			"keccak256": "0xc0ee83f9912f79d27c057ceb589832da47688075193ec7e089a6af32a8778cd2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cca69b449c98388ca682af9b2552835de82fd862044ac122224b62b4a0b9d219",
-				"dweb:/ipfs/QmNkQJzPokc29L2jyF7QAq51pPCafbPC48jGSsCUcjSJLo"
+				"bzz-raw://422025335812c3ad884329696bb1dd8c27dff118f0647f63b6074874285f1012",
+				"dweb:/ipfs/QmWnVC9KEXQNgg7bhFAyjd3g7tRAbVauHvaQ3NmELHVopi"
 			]
 		}
 	},
