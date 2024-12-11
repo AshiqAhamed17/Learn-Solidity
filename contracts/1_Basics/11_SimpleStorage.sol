@@ -16,4 +16,9 @@ contract Storage {
     function getLenght(string calldata _text) public pure returns (uint) {
         return bytes(_text).length;
     }
+
+    function append(string calldata _str) public  returns (string memory) {
+        text = string.concat(text," ", _str);
+        return text;
+    }
 }
