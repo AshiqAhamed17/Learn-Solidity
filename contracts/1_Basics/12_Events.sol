@@ -14,7 +14,7 @@ contract Event {
         num - _newNum;
         emit Numupdate(num,old);
     }
-    // Transfer Eg
+    // Transfer Functions Examples
 
     mapping(address => uint)  balances;
     event Trasfer(address indexed from, address indexed to, uint value);
