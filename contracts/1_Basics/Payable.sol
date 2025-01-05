@@ -3,7 +3,7 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract Payable {
     address payable public owner;
-    constructor() {
+    constructor() payable {
         owner = payable(msg.sender);
     }
 
