@@ -8,7 +8,7 @@ contract Testdelegatecall {
     uint public value;
 
     function setValue(uint _num) external payable {
-        num = _num;
+        num =  2 * _num;
         sender = msg.sender;
         value = msg.value;
     }
@@ -26,8 +26,17 @@ contract Delegatecall {
             abi.encodeWithSignature("setValue(uint256)", _num);
         )
         */
-        // A's storage is set; B's storage is not modified.
+        // Delegatecall's storage is set; Testdelegatecall's storage is not modified.
         (bool success, bytes memory data) = _test.delegatecall(
+            abi.encodeWithSelector(Testdelegatecall.setValue.selector, _num)
+        );
+        require(success, "Delegatecall Failed !!!!");
+        emit DelegateResponse(success, data);
+    }
+
+    // Testdelegatecall's storage is set; Delegatecall's storage is not modified.
+    function setValueCall(address _test, uint _num) external payable {
+        (bool success, bytes memory data) = _test.call{value: msg.value}(
             abi.encodeWithSelector(Testdelegatecall.setValue.selector, _num)
         );
         require(success, "Delegatecall Failed !!!!");

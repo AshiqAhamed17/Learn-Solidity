@@ -69,6 +69,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_test",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setValueCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "value",
 				"outputs": [
@@ -110,11 +128,11 @@
 	},
 	"sources": {
 		"contracts/2_Intermediate/2_Delegatecall.sol": {
-			"keccak256": "0x02999949b30095ee11520de95a05361182d558cbe5a952fbfdcbcd497d582a27",
+			"keccak256": "0xf109e79ea4cf21270faf0b273d90ca9077be07f58050895a81321408d91cb82d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ed61db8a59723747fec934ebf4ebd61b577fc0cf523fed6cbf7eba6cf6eba7c8",
-				"dweb:/ipfs/Qmazx8kJHgRis3DaVJVCVCwoUKehkJ3u9kzWwQE41FKcRL"
+				"bzz-raw://4cd06223fbf8d8720ef174698943f752a8e046c243328893edaccb325d617f0f",
+				"dweb:/ipfs/QmVMJkkHgY8GQEEaajXnnCqEjeyiNxSRwmxZW5aUabmyX8"
 			]
 		}
 	},
