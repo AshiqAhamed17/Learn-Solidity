@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cohort/Staking/Stake.sol": "CounterImpV1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cohort/Staking/Stake.sol": {
+			"keccak256": "0x188da9c58c4e8af0552fd5e0bddd08bd4813e784049ec810fb19c490ad5f444f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fdfa40a2bf6c127e36fb24c4db05bffa3585ee379cd0a44d8f826fbb7167bfba",
+				"dweb:/ipfs/QmTrghEwFU3fzf5kCkpsReCxBEtbFJnJSFj2xGwviW7PXa"
+			]
+		}
+	},
+	"version": 1
+}
