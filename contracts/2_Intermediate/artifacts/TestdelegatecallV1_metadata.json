@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Intermediate/2_Delegatecall.sol": "Testdelegatecall"
+			"contracts/2_Intermediate/2_Delegatecall.sol": "TestdelegatecallV1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -86,11 +86,11 @@
 	},
 	"sources": {
 		"contracts/2_Intermediate/2_Delegatecall.sol": {
-			"keccak256": "0x677f7bde17e2e77b8e6a6aa808fdb6d5fbcb804d5d9a32ec2ca76fc6212528b0",
+			"keccak256": "0x09432e6f5adfda84963e7711f3b2f243a3b6a08fe84d4794c8f367162134fa0f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8503f69742b14a418efc509e31708d8c762d64368ac83a2c4dc196a6403fab9f",
-				"dweb:/ipfs/QmUfuSxKYiV9WEyUzHZNcz2iBxn6sNMdu4Ai1Vxz6F3Hqh"
+				"bzz-raw://669aae94489d310a8ef3ac16b78bf34d6257f1d7b4f1a0bf1bef216b6d059bb3",
+				"dweb:/ipfs/QmWw31RWv9nHude4iWbYBeQ9S6JSApg2RjsAfiBg2Dy1jx"
 			]
 		}
 	},

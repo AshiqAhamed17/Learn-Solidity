@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Intermediate/2_Delegatecall.sol": "Testdelegatecall"
+			"contracts/2_Intermediate/2_Delegatecall.sol": "Testdelegatecall2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
