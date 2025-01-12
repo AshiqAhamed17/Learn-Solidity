@@ -4,12 +4,12 @@ pragma solidity >=0.8.2 <0.9.0;
 //Logic Contract
 contract TestdelegatecallV1 {
     // NOTE: storage layout must be the same as contract Delegatecall
-    uint public num;
+    uint public num1;
     address public sender;
     uint public value;
 
     function setValue(uint _num) external payable {
-        num =  2 * _num;
+        num1 =  2 * _num;
         sender = msg.sender;
         value = msg.value;
     }
