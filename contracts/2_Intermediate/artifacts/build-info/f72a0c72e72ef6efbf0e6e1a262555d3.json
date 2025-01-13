@@ -1,0 +1,72 @@
+{
+	"id": "f72a0c72e72ef6efbf0e6e1a262555d3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/2_Intermediate/8_PiggyBank.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.8.2 <0.9.0;\n\n/*\ncontract PiggyBank {\n    address public owner;\n\n    event Deposit(uint amount);\n    event Withdraw(uint amount);\n\n    constructor() {\n        owner = msg.sender;\n    }\n\n    modifier onlyOwner() {\n        require(msg.sender == owner, \"Only the owner can do this.\");\n        _;\n    }\n\n    receive() external payable {\n        emit Deposit(msg.value);\n    }\n\n    function withdraw() external onlyOwner {\n        emit Withdraw(address(this).balance);\n        //selfdestruct(payable(owner));\n\n    }\n\n    function getbalance() public view returns (uint balance) {\n        balance = address(this).balance;\n    }\n\n}\n*/"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/2_Intermediate/8_PiggyBank.sol": {
+				"ast": {
+					"absolutePath": "contracts/2_Intermediate/8_PiggyBank.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.8",
+								".2",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "36:31:0"
+						}
+					],
+					"src": "36:646:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
