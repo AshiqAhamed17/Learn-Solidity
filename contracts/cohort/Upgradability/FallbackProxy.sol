@@ -14,6 +14,10 @@ contract Proxy {
         (bool success, ) = imp.delegatecall(msg.data);
         require(success, 'Failed');
     }
+
+    function setImplementation(address _imp) public {
+        imp = _imp;
+    }
 }
 
 contract ImplementationV1 {

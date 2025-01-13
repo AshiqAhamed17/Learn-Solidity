@@ -32,6 +32,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_imp",
+						"type": "address"
+					}
+				],
+				"name": "setImplementation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -62,11 +75,11 @@
 	},
 	"sources": {
 		"contracts/cohort/Upgradability/FallbackProxy.sol": {
-			"keccak256": "0x3d5fccc1a4d305bc9a1eaaaa7dc841d9f661acf1554cf642404892c27ea22991",
+			"keccak256": "0xa288717288edf810c5a82ba75b53991d370522b1b810ebdc27039642b789bdba",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5ca02ecc48eca34f3999ac752be6341c9f122de263da3f1c27abcbc562adf263",
-				"dweb:/ipfs/QmVAvf4jd3fH8Ede6WyZTU2qynXBGs6qeook2CFGBpmC3G"
+				"bzz-raw://fe92284670f178cf9d02d073fd11be4cd51a168d86e2a6aa8b7fb5b72b8fe405",
+				"dweb:/ipfs/QmZvGBENyxyTfe8dapGF788uo8d3XAnf2RyNz94JJPQCjr"
 			]
 		}
 	},
